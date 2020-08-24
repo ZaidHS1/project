@@ -1,0 +1,144 @@
+body {
+  background-color: #F7F9FE !important;
+}
+
+table, p {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+div {
+  width: 100%;
+  overflow-x: auto;
+}
+
+h2 {
+  color: #F6F9FE;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: 'Lilita One', cursive;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.navbar{
+  background-color: #68b0ab;
+}
+
+.btn{
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #faf3dd !important;
+  color: black !important;
+  border-radius: 2px 2px 2px 2px !important;
+-moz-border-radius: 2px 2px 2px 2px !important;
+-webkit-border-radius: 2px 2px 2px 2px !important;
+border: 0px solid #000000 !important;
+-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.heading {
+  background-color: #8fc0a9;
+  border-radius: 5px 5px 0px 0px;
+-moz-border-radius: 5px 5px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+border: 0px solid #000000;
+}
+
+.wholeCard{
+  padding: 0 2px;
+}
+
+.container{
+  padding-bottom: 20px;
+}
+
+.card img {
+  height: 153px;
+  width: 100%;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.more {
+  background-color: black;
+}
+
+.section {
+  margin-top: 100px;
+  border: solid 1px;
+  border-radius: 9px;
+  border-color: #353A3F;
+  padding-bottom: 10px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 9px 6px rgba(153,153,153,1);
+-moz-box-shadow: 0px 0px 9px 6px rgba(153,153,153,1);
+box-shadow: 0px 0px 9px 6px rgba(153,153,153,1);
+}
+
+.text-block {
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: 0.4;
+  padding-bottom: 1px;
+}
+
+.last {
+  height: 200px;
+}
+
+.logo-image{
+  padding: 8px;
+}
+
+.more{
+  padding: 0;
+}
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  margin-top: 12px;
+  margin-right: 17px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #faf3dd !important;
+  cursor: pointer
+}
+
+.collapse-button:hover{
+  color: #FECE3A !important;
+}
+
+.fa-caret-down{
+  margin-left: 3px;
+}
+
+@media only screen and (max-width: 464px) {
+  .btn {
+    font-size: 10px !important;
+  }
+
+  .wholeCard {
+    padding: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card img {
+    height: 100px;
+    width: 100%;
+  }
+
+  .text-block {
+    font-size: 12px;
+    padding-top: 0;
+  }
+}
